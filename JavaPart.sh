@@ -5,4 +5,4 @@ zip -r helloworld.jar $(pwd)
 # oh wait. It wont work coz itz arm
 
 mkdir Bruh
-mv $(pwd) Bruh
+mv helloworld.jar Bruh
