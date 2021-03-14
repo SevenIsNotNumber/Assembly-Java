@@ -4,5 +4,5 @@ zip -r helloworld.jar $(pwd)
 # java helloworld.jar        # it should print hello world if work
 # oh wait. It wont work coz itz arm
 
-sudo mkdir /Bruh
-sudo mv $(pwd) /Bruh
+mkdir Bruh
+mv $(pwd) Bruh
