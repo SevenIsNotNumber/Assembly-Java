@@ -2,7 +2,7 @@
 
 .section .text
 
-_start
+_start:
 mov r7, #0x03             @ Read sys-call
 mov r0, #0                @ r0-r2 are args
 ldr r1, =mezzage     
