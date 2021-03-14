@@ -2,7 +2,7 @@ class callit {
     private native void print();
 
     public static void main(String[] args) {
-        new HelloWorld()._start();     
+        new callit()._start();     
     }
 
     static {
